@@ -3,7 +3,7 @@ pipeline {
      stages{
         stage("Git Checkout"){
             steps{
-                url: git 'https://github.com/chinnaakhil/myweb.git'
+                url: git 'https://github.com/shivactm/myweb.git'
             }
         }
         stage("Maven Build"){
